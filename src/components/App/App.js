@@ -1,13 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Layout from '../../container/Layout/Layout';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div >
+      <Layout>
 
-      </header>
+      </Layout>
     </div>
   );
 }
