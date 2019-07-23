@@ -12,26 +12,26 @@ class App extends Component {
       questions: [
         {
           id: 1,
-          text: 'Which of the following is used to pass all props to a component?',
+          text: 'Which command creates a package.json file?',
           choices: [
             {
               id: 'a',
-              text: '{this.props.all}'
+              text: 'npm create'
             },
             {
               id: 'b',
-              text: '{…this.props}'
+              text: 'npm package'
             },
             {
               id: 'c',
-              text: '{This.props…}'
+              text: 'npm new'
             },
             {
               id: 'd',
-              text: '{props}'
+              text: 'npm init'
             }
           ],
-          correct: 'b'
+          correct: 'd'
         },
         {
           id: 2,
@@ -47,14 +47,15 @@ class App extends Component {
             },
             {
               id: 'c',
-              text: 'Key'
+
+              text: 'value'
             },
             {
               id: 'd',
-              text: 'value'
+              text: 'Key'
             }
           ],
-          correct: 'c'
+          correct: 'd'
         },
         {
           id: 3,
@@ -93,7 +94,141 @@ class App extends Component {
             }
           ],
           correct: 'c'
+        },
+        {
+          id: 5,
+          text: 'By default, the webpack configuration file must be named what?',
+          choices: [
+            {
+              id: 'a',
+              text: 'config.js'
+            },
+            {
+              id: 'b',
+              text: 'webpack.config.js'
+            },
+            {
+              id: 'c',
+              text: 'webpack.conf.js'
+            },
+            {
+              id: 'd',
+              text: 'webpack-config.js'
+            }
+          ],
+          correct: 'b'
+        },
+        {
+          id: 6,
+          text: 'What loader did we use with Webpack?',
+          choices: [
+            {
+              id: 'a',
+              text: 'webpack-loader'
+            },
+            {
+              id: 'b',
+              text: 'react-loader'
+            },
+            {
+              id: 'c',
+              text: 'babel-loader'
+            },
+            {
+              id: 'd',
+              text: 'jsx-loader'
+            }
+          ],
+          correct: 'c'
+        },
+        {
+          id: 7,
+          text: 'With ES6 syntax, a component class must extend what class?',
+          choices: [
+            {
+              id: 'a',
+              text: 'React'
+            },
+            {
+              id: 'b',
+              text: 'Component'
+            },
+            {
+              id: 'c',
+              text: 'Master'
+            },
+            {
+              id: 'd',
+              text: 'Application'
+            }
+          ],
+          correct: 'b'
+        },
+        {
+          id: 8,
+          text: 'When using ES6, states are set in a constructor',
+          choices: [
+            {
+              id: 'a',
+              text: 'True'
+            },
+            {
+              id: 'b',
+              text: 'False'
+            }
+          ],
+          correct: 'a'
+        },
+        {
+          id: 9,
+          text: 'Number of elements, a valid react component can return ',
+          choices: [
+            {
+              id: 'a',
+              text: '1'
+            },
+            {
+              id: 'b',
+              text: '2'
+            },
+            {
+              id: 'c',
+              text: '3'
+            },
+            {
+              id: 'd',
+              text: '4'
+            }
+          ],
+          correct: 'a'
+        },
+        {
+          id: 10,
+          text: 'ReactJS uses _____ to increase performance',
+          choices: [
+            {
+              id: 'a',
+              text: 'Original DOM'
+            },
+            {
+              id: 'b',
+
+              text: 'Virtual DOM'
+            },
+            {
+              id: 'c',
+              text: 'Both of above'
+            },
+            {
+              id: 'd',
+              text: 'None of above'
+            }
+          ],
+          correct: 'b'
         }
+
+
+
       ],
       score: 0,
       current: 1
