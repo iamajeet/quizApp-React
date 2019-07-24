@@ -15,7 +15,7 @@ class Question extends Component {
     render() {
         const { question } = this.props;
         return (
-            <div style={{ marginBottom: "100px" }} className="well">
+            <div style={{ marginBottom: "50px" }} className="well">
                 <div className="card">
                     <div className="card-body">
                         <h4>{question.text}</h4>
